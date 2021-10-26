@@ -1,0 +1,176 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-style: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Open Sans';
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+} 
+/*------------------------------*/
+._container {
+    max-width: 1110px;
+    padding: 0px 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+._ibg {
+    position: relative;
+}
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.active {
+    display: block;
+}
+/*--------header--------*/
+.header {
+    padding: 30px 0 25px 0;
+}
+.header a {
+    color: #000;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    min-height: 104px;
+    justify-content: space-between;
+
+}
+
+.burger {
+    background: transparent;
+    display: none;
+    position: relative;
+    width: 20px;
+    height: 12px;
+}
+.burger span {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 5px;
+
+}
+.burger:before,
+.burger:after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+.burger:before {
+    top: 0;
+}
+.burger:after {
+    bottom: 0;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.logo__content {
+    margin-left: 20px;
+}
+.logo__text {
+    font-size: 18px;
+}
+.header__logo img {
+    border-radius: 100%;
+    width: 100px;
+}
+
+.header__menu {
+    
+}
+.menu {}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+    margin-right: 15px;
+}
+.menu__link {
+}
+.header__social {}
+.social__menu {
+    display: flex;
+}
+.social__menu_inst {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(../img/icon/instagram.png);
+}
+.social__menu_inst:hover {
+    opacity: 0.7;
+}
+/*--------header-end-------*/
+
+
+/* about */
+.about {}
+.about__container {}
+.about__content {
+    margin: 70px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.about__title {
+    font-size: 50px;
+}
+.about__text {
+    font-size: 23px;
+    margin-top: 20px;
+}
+.about__img img {
+    width: 100%;
+    margin-left: 50px;
+}
