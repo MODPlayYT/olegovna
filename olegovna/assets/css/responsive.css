@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.about__content {
+		margin: 30px 0 0 0
+	}
+	.about__title {
+    	font-size: 43px;
+	}
+	.about__text {
+    	margin-top: 20px;
+    	font-size: 18px;
+	}
+	
+}
+@media (max-width: 768px) {
+	.burger {
+		display: block
+	}
+	.header__menu {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 135px;
+		padding: 0 0 0 30px;
+		background-color: #FFF;
+
+	}
+	.menu__list {
+		display: block;
+	}
+	.menu__item {
+		margin-bottom: 25px
+	}
+	.about__img {
+		display: none
+	}
+}
+@media (max-width: 576px) {
+	.logo__content {
+		display: none
+	}
+}
